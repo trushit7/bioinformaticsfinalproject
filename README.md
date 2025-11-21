@@ -5,16 +5,23 @@ This project evaluates the ability of machine learning models to predict heart d
 # Methods Summary
 
 Preprocessing: StandardScaler + OneHotEncoder via ColumnTransformer
+
 Models: Logistic Regression, Random Forest
+
 Validation: 5-fold stratified cross-validation
+
 Metrics: Accuracy, F1, ROC-AUC
+
 Visualizations: Correlation heatmap, ROC curves, feature importances
 
 # Usage
 
 Clone the repository
+
 Place heart.csv in the project folder
+
 Open notebook in Jupyter or Colab
+
 Run each cell sequentially to reproduce results
 
 # Obtained Result
@@ -27,6 +34,8 @@ Run each cell sequentially to reproduce results
 # Contributors
 
 Rudra Maheshbhai Patel
+
 Utsav Ashokbhai Desai
+
 Trushit Mukeshkumar Jaiswal
 
