@@ -1,4 +1,4 @@
-#AI Usage Disclosure
+# AI Usage Disclosure
 
 AI tools (ChatGPT) were used in this project only for:
 
@@ -12,7 +12,7 @@ Suggesting non-critical code optimizations
 
 All numerical outputs—including accuracy, F1, ROC-AUC, ROC curves, feature importances, and confusion matrices—were generated directly from running the code written by the group. All model decisions, code debugging, and validation were performed manually by the team.
 
-#Verification
+# Verification
 
 Each AI-suggested code block was executed, tested, and verified for correctness
 
@@ -20,7 +20,7 @@ Outputs were cross-checked with manual calculations or sklearn-known defaults
 
 No AI-generated results were accepted without verification
 
-#Ethical Considerations
+# Ethical Considerations
 
 The dataset is publicly available and contains no personal health identifiers
 
