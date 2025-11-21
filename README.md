@@ -53,4 +53,6 @@ Random Forest outperforms Logistic Regression across all evaluation metrics.
 - numpy, pandas, matplotlib
 - scikit-learn >= 1.4
 
+---
+
 
