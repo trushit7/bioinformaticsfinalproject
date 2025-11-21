@@ -1,41 +1,73 @@
-# Heart Disease Prediction Using Machine Learning
+# Bio_Info_Final_Project  
+# Heart Disease Prediction Using Machine Learning  
 
-This project evaluates the ability of machine learning models to predict heart disease using routine clinical features. It uses the public UCI Heart Disease dataset and implements a complete, reproducible scikit-learn pipeline including preprocessing, model training, evaluation, and visualization.
+This repository contains our final project for the BIOL course, focused on predicting heart disease using machine learning techniques and clinical features from the UCI Heart Disease dataset. The project implements a complete, reproducible workflow with preprocessing, model training, evaluation, and visualization.
 
-# Methods Summary
+---
 
-Preprocessing: StandardScaler + OneHotEncoder via ColumnTransformer
+## 📌 Project Summary
 
-Models: Logistic Regression, Random Forest
+We evaluate how well machine learning models can predict heart disease using routinely collected clinical variables.  
+The project includes:
 
-Validation: 5-fold stratified cross-validation
+- *Preprocessing:* StandardScaler + OneHotEncoder (ColumnTransformer)  
+- *Models:* Logistic Regression, Random Forest  
+- *Validation:* 5-fold stratified cross-validation  
+- *Metrics:* Accuracy, F1-Score, ROC-AUC  
+- *Visualizations:*  
+  - Correlation heatmap  
+  - ROC curves  
+  - Feature importances  
 
-Metrics: Accuracy, F1, ROC-AUC
+---
 
-Visualizations: Correlation heatmap, ROC curves, feature importances
+## 📂 Dataset
 
-# Usage
+We use the *UCI Heart Disease Dataset*, which must be placed manually in the project folder as:
 
-Clone the repository
 
-Place heart.csv in the project folder
+---
 
-Open notebook in Jupyter or Colab
+## 📊 Obtained Results
 
-Run each cell sequentially to reproduce results
+| Model               | Accuracy | F1 Score | ROC-AUC |
+|--------------------|----------|----------|---------|
+| Logistic Regression | 0.787    | 0.817    | 0.871   |
+| Random Forest       | *0.803* | *0.838* | *0.903* |
 
-# Obtained Result
+Random Forest outperforms Logistic Regression across all evaluation metrics.
 
-| Model               | Accuracy  | F1        | ROC-AUC   |
-| ------------------- | --------- | --------- | --------- |
-| Logistic Regression | 0.787     | 0.817     | 0.871     |
-| Random Forest       | *0.803*   | *0.838*   | *0.903*   |
+---
 
-# Contributors
+## 👥 Team Members
 
-Rudra Maheshbhai Patel
+- *Rudra* – ML workflow development, model implementation, evaluation, results/figures  
+- *Utsav* – Exploratory data analysis, interpretation, introduction/data writing, clinical relevance  
+- *Trushit* – Documentation, repo organization, reproducibility, README + AI usage drafting  
 
-Utsav Ashokbhai Desai
+---
 
-Trushit Mukeshkumar Jaiswal
+## ⚙️ Installation & Setup
 
+### Requirements
+- Python *3.12*
+- numpy, pandas, matplotlib
+- scikit-learn >= 1.4
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone the repository
+
+`git clone <repository-url>
+cd heart-disease-prediction`
+
+---
+
+### 2. Install dependencies
+
+pip install -r requirements.txt
+
+### 3. Open and run the notebook
+jupyter notebook notebooks/heart_disease_analysis.ipynb
