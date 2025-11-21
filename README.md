@@ -24,6 +24,8 @@ Open notebook in Jupyter or Colab
 
 Run each cell sequentially to reproduce results
 
+# Obtained Result
+
 | Model               | Accuracy  | F1        | ROC-AUC   |
 | ------------------- | --------- | --------- | --------- |
 | Logistic Regression | 0.787     | 0.817     | 0.871     |
