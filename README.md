@@ -1,4 +1,3 @@
-# Bio_Info_Final_Project  
 # Heart Disease Prediction Using Machine Learning  
 
 This repository contains our final project for the BIOL course, focused on predicting heart disease using machine learning techniques and clinical features from the UCI Heart Disease dataset. The project implements a complete, reproducible workflow with preprocessing, model training, evaluation, and visualization.
