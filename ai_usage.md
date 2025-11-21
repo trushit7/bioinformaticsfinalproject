@@ -1,29 +1,7 @@
 # AI Usage Disclosure
 
-AI tools (ChatGPT) were used in this project only for:
+This project made limited and transparent use of AI tools to support documentation and code organization. ChatGPT was used solely for assistance with writing tasks, including improving clarity in the Introduction, Methods, Results, and Discussion sections, and helping refine the structure of the Jupyter notebook. AI suggestions were also used for non-critical code formatting, such as improving readability or organizing functions.
 
-Structuring the initial notebook layout
+All analyses, numerical results, model evaluations, and data processing steps were performed by the team. Model training, metric computation, figure generation, and validation were carried out manually using the implemented code. No AI-generated outputs were used without review, and all suggestions were verified for correctness before inclusion.
 
-Improving clarity of documentation and written sections
-
-Helping format the Methods, Results, and Discussion text
-
-Suggesting non-critical code optimizations
-
-All numerical outputs—including accuracy, F1, ROC-AUC, ROC curves, feature importances, and confusion matrices—were generated directly from running the code written by the group. All model decisions, code debugging, and validation were performed manually by the team.
-
-# Verification
-
-Each AI-suggested code block was executed, tested, and verified for correctness
-
-Outputs were cross-checked with manual calculations or sklearn-known defaults
-
-No AI-generated results were accepted without verification
-
-# Ethical Considerations
-
-The dataset is publicly available and contains no personal health identifiers
-
-No clinical decisions are implied by this analysis
-
-All scripts are reproducible using the provided notebook and environment logs
+The dataset used in this project is publicly available and does not contain personal or identifiable information. No clinical or diagnostic conclusions are implied by this work. The full workflow is reproducible through the provided notebook, environment configuration, and repository structure.
