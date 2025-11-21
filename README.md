@@ -53,20 +53,4 @@ Random Forest outperforms Logistic Regression across all evaluation metrics.
 - numpy, pandas, matplotlib
 - scikit-learn >= 1.4
 
----
 
-## 🚀 Quick Start
-
-### 1. Clone the repository
-
-`git clone <repository-url>
-cd heart-disease-prediction`
-
----
-
-### 2. Install dependencies
-
-pip install -r requirements.txt
-
-### 3. Open and run the notebook
-jupyter notebook notebooks/heart_disease_analysis.ipynb
